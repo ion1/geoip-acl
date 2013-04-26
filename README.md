@@ -6,6 +6,9 @@ Depends on `geoiplookup`/`geoiplookup6` from [Maxmind][geoip-api-c]. See the
 [geoip-api-c]:      https://github.com/maxmind/geoip-api-c
 [geoip-bin-debian]: http://packages.debian.org/geoip-bin
 
+Depends on the GNU version of sed. If you’d like this to work on non-GNU
+systems, please contact me.
+
 Example of usage: whitelist Finland, Jamaica and Taiwan:
 
 `/etc/hosts.deny`:
