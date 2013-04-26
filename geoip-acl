@@ -20,7 +20,7 @@
 #
 # /etc/hosts.deny:
 #
-# sshd : ALL : aclexec ! /usr/local/sbin/geoip-acl FI,JM,TW %a
+# sshd : ALL : aclexec ! /opt/geoip-acl/geoip-acl FI,JM,TW %a
 
 set -eu
 
