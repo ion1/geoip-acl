@@ -18,6 +18,6 @@ sshd : ALL : aclexec ! /opt/geoip-acl/geoip-acl FI,JM,TW %a
 
 Depends on `curl`.
 
-To be run from cron (using `>/dev/null 2>&1` or [chronic][moreutils])).
+To be run from cron (using `>/dev/null 2>&1` or [chronic][moreutils]).
 
 [moreutils]: http://joeyh.name/code/moreutils/
