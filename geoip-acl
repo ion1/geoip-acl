@@ -33,7 +33,7 @@ case "$addr" in *:*) cmd=geoiplookup6 ;; esac
 country=
 eval "$(
   ("$cmd" -d /usr/local/share/GeoIP -- "$addr" || :) | \
-  sed -nre 's/^GeoIP Country (V6 )?Edition: ([A-Z]+), .*$/country="\2";/p'
+  sed -nre 's/^GeoIP Country (V6 )?Edition: ([0-9A-Za-z]+), .*$/country="\2";/p'
 )"
 
 allow=false
